@@ -59,6 +59,39 @@
 <section id="lista">
     <h2>Itens cadastrados</h2>
 
+<form>
+
+    <div>
+        <label for="pesquisa">Pesquisar:</label>
+        <input
+            type="search"
+            id="pesquisa"
+            name="pesquisa">
+    </div>
+
+    <div>
+        <label for="filtro">Filtrar:</label>
+
+        <select id="filtro" name="filtro">
+            <option value="">Todos</option>
+            <option value="categoria1">Categoria 1</option>
+            <option value="categoria2">Categoria 2</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="ordenacao">Ordenar por:</label>
+
+        <select id="ordenacao" name="ordenacao">
+            <option value="nome">Nome</option>
+            <option value="categoria">Categoria</option>
+        </select>
+    </div>
+
+    <button type="submit">Aplicar</button>
+
+</form>
+
     <table>
 
         <thead>
