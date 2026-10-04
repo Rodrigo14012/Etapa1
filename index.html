@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,17 +21,40 @@
 
 <main>
 
-    <section>
-        <h2>Cadastro</h2>
-    </section>
+    <section id="cadastro">
+    <h2>Cadastrar novo item</h2>
 
-    <section>
-        <h2>Itens cadastrados</h2>
-    </section>
+    <form>
 
-    <section>
-        <h2>Detalhes</h2>
-    </section>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div>
+            <label for="categoria">Categoria:</label>
+
+            <select id="categoria" name="categoria">
+                <option value="">Selecione</option>
+                <option value="categoria1">Categoria 1</option>
+                <option value="categoria2">Categoria 2</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="descricao">Descrição:</label>
+
+            <textarea
+                id="descricao"
+                name="descricao"
+                rows="5">
+            </textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</section>
 
 </main>
 
