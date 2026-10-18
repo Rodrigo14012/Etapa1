@@ -44,6 +44,10 @@ main {
 
 section {
     margin: 40px 0;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #dce3e8;
+    border-radius: 8px;
 }
 
 form {
