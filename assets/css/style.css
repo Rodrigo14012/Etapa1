@@ -136,3 +136,32 @@ button:hover {
 .filtros-form button {
     grid-column: 1 / -1;
 }
+
+/* Adaptação para telas menores */
+@media (max-width: 768px) {
+    .filtros-form {
+        grid-template-columns: 1fr;
+    }
+
+    .filtros-form button {
+        grid-column: auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    td button {
+        padding: 8px;
+    }
+}
+
+.tabela-container {
+    width: 100%;
+    overflow-x: auto;
+}
