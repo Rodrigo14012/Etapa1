@@ -87,6 +87,7 @@ textarea:focus {
 
 table {
     width: 100%;
+    min-width: 600px;
     border-collapse: collapse;
     margin-top: 16px;
     background-color: white;
