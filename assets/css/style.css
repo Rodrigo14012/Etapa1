@@ -1,10 +1,16 @@
+/* Configurações gerais da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    color: #263238;
+    background-color: #f4f6f8;
 }
 
+/* Cabeçalho do sistema */
 header {
     padding: 20px;
+    color: white;
+    background-color: #234e70;
 }
 
 nav ul {
