@@ -124,3 +124,15 @@ button {
 button:hover {
     background-color: #0d416b;
 }
+
+/* Organização dos controles de pesquisa */
+.filtros-form {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    align-items: end;
+}
+
+.filtros-form button {
+    grid-column: 1 / -1;
+}
